@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class gravityno : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Game Over");
+        SceneManager.LoadScene(3);
     }
 }
